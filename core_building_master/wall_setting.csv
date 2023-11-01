@@ -1,0 +1,17 @@
+*サーバー使用中,,,,,,,,
+,#壁のレベル,#壁のサイズ,,#壁の外に霧を表示しますか,,,,
+,[TABLE],wall_setting,,,,,,
+,[ATTRIBUTE],n_wall_under_fog_level,3,#このレベルの壁を常に描画します。,#ここは次のレベル開放するときのカメラポジションです,このLevelからAPIでLevelUpします,,
+,,n_tutorial_fog_size_x,20,#チュートリアル段階の霧サイズ,,,,
+,,n_tutorial_fog_size_y,20,#同上,,,,
+,,n_tutorial_camera_x,-15,#チュートリアル段階の霧開放時のカメラ設定,,,,
+,,n_tutorial_camera_y,-11,#同上,,,,
+,,f_tutorial_camera_scale,1,#同上,,,,
+,,n_tutorial_flag,10,#特定のチュートリアルステップ以後、霧サイズは下記の「n_level=1」になる。<br>ステップは「TutorialFlag」の「n_id」を参照。,,,,
+,,s_wall_extension_text,GardenMapExtension_Unlock,#ガーデンパレスレベル{0}で解放,,,,
+,n_level,n_size_x,n_size_y,n_show_fog_around,n_camera_x,n_camera_y,f_camera_scale,n_garden_level
+,1,30,30,1,15,-20,1,0
+,2,40,40,1,-4,-40,1,0
+,3,60,60,0,0,0,1,0
+,4,76,76,0,0,0,0.5,21
+,#5,85,85,0,0,0,0.3,30
