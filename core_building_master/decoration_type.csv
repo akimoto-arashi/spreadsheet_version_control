@@ -1,0 +1,10 @@
+*サーバー使用中,,,,,,,,,,,,,,,,,
+1cIxEM47JcSxGe2VgxHmsakdjV-TpreVc6ZXDqV50lIc,装飾物,建物名,,建築モード<br>簡易テキスト,建物フレーバー,道路ですか？<br>1…道<br>2…コッペルが上を通る,道の種類数<br>1…青<br>2…黄緑<br>3…黄色<br>4…橙<br>5…赤<br>6…紫,どのタブに表示するか<br>1…通常<br>2…イベント,建物リストの並び順,必要な資源<br>[{X「；」Y}]：X…obj_define_id、Y…必要な数<br><br>例：[{3「；」10}「；」{4「；」20}]<br>⇛資源1が10と資源2が20必要。,解放条件<br>[{1「；」1「；」10}]…[{建物ID「；」建物level「；」配置上限数}],サイズX,サイズY,リスト内のICON,建物見た目,装飾物バフ<br>[{slg_buff1ID，slg_buff1效果}「；」{slg_buff2ID，slg_buff2效果}「；」....],重複獲得時のジェム変換数
+,,,,,,,,,,,,,,,,,
+,[TABLE],decoration_type,,,,,,,,,,,,,,,
+,n_id,s_name,#装飾物名,s_short_info,s_flavor,n_road,#s_road_num,n_tab,n_priority,s_required_resources,s_building_requirements,n_size_x,n_size_y,s_list_icon,s_asset_key,#s_slg_effect,n_return_gem
+,101,Special_pillar_01,,Special_pilla_beforer_info_01,Special_pilla_after_infor_01,0,,1,,[{3「；」10}],[{1「；」1「；」10}],2,2,,,,10
+,102,Special_statue_01,,Special_statue_before_info_01,Special_statue_after_info_01,0,,1,,[{3「；」10}],[{1「；」1「；」10}],2,2,,,,
+,103,Special_tree_01,,Special_tree_before_info_01,Special_tree_after_info_01,0,,1,,[{3「；」10}],[{1「；」1「；」25}],2,2,,,,
+,104,Special_tree_02,,Special_tree_before_info_02,Special_tree_after_info_02,0,,1,,[{3「；」10}],[{1「；」3「；」25}],2,2,,,,
+,105,Special_road_01,,Special_road_before_info_01,Special_road_after_info_01,1,,1,,[{3「；」10}],[{1「；」1「；」500}],1,1,,,,
