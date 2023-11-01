@@ -1,0 +1,10 @@
+*サーバー使用中,,,,,,,,,,
+,建物の種類,建物名,,建築モード<br>簡易テキスト,建物フレーバー,タブの棲み分け<br>0…経済<br>1…軍事<br>※「-1」リストに並ばない,建物サイズX,建物サイズY,建物リスト内のICON,建物プレハブ名
+,,,,,,,,,,
+,[TABLE],building_type,,,,,,,,
+,n_id,s_name,#建物名,s_short_info,s_flavor,n_tab,n_size_x,n_size_y,s_list_icon,s_asset_key
+,1,building_name_01,拠点,s_info_101,s_flavor_101,-1,10,10,build_1_101_2,build_1_101_2
+,2,building_name_02,資源①,s_info_102,s_flavor_102,0,4,4,build_2_101_2,build_2_101_2
+,3,building_name_03,資源②,s_info_103,s_flavor_103,0,4,4,build_3_101_2,build_3_101_2
+,4,building_name_04,ミニオン研究所,s_info_104,s_flavor_104,1,5,5,build_5_101_2,build_5_101_2
+,5,building_name_05,研究,s_info_105,s_flavor_105,1,5,5,build_16_101_2,build_16_101_2
