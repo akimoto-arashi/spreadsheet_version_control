@@ -1,0 +1,6 @@
+*サーバー使用中,,,,,,,
+184cMyXFTLh8pSl_WoEN9j1WvFqD4yaSGhXJfAYGIei8,建物のスペック,,,,,,
+,備考,建物種類<br>1:Rice field（農場）<br>2:Iron（精錬所）<br>3:Storage（倉庫）<br>4:Gacha building（召喚儀）※レベルアップ不可<br>5:Arena（アリーナ）※レベルアップ不可<br>6:Forge（装備工房）<br>7:Factory（道具工房）<br>8:Academy（ラボラトリー）<br>9:Skyport（ガーデンパレス）<br>10:CardExp（マナの大釜）<br>11:Notice（看板）※レベルアップ不可<br>12:PVE（クエスト）※レベルアップ不可<br>13:Timber（伐採所）,LEVEL,,貯蔵素材タイプ<br>3…食糧<br>4…鉄材<br>6…木材,貯蔵素材数,1時間あたりに増加する素材数
+,[TABLE],building_resource,,,,,
+,n_id,n_type,n_level,#obj_define,n_storage_material,n_storage_total,n_production_per_hour_total
+,1,1,1,,,,
